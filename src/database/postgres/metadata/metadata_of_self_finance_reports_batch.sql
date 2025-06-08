@@ -1,0 +1,3 @@
+INSERT INTO meta_schema.airflow_dags_metadata (batch_name, sub_task, parm_name, parm_value, last_update_ts) VALUES('SelfFinanceReportsBatch', 'Extraction', 'end_date', '2025-06-07', now());
+INSERT INTO meta_schema.airflow_dags_metadata (batch_name, sub_task, parm_name, parm_value, last_update_ts) VALUES('SelfFinanceReportsBatch', 'Loading', 'file_to_process', 'HDFC_Bank_InstaAlerts_02-Jun-2025_to_06-Jun-2025.json', now());
+INSERT INTO meta_schema.airflow_dags_metadata (batch_name, sub_task, parm_name, parm_value, last_update_ts) VALUES('SelfFinanceReportsBatch', 'Loading', 'hive_watermark', '2025-06-06', now());
